@@ -42,7 +42,14 @@
 
   programs.fish = {
   	enable = true;
-  	interactiveShellInit = "set PATH $PATH $HOME/bin";
+  	shellInit = ''
+  	  set PATH $PATH $HOME/bin
+  	  set -g theme_nerd_fonts yes
+  	  set -g theme_git_default_branches main
+  	  set -g theme_use_abbreviated_branch_name no
+  	  set -g theme_display_nix yes
+  	  set -g theme_display_git_default_branch yes
+  	'';
   	shellAliases = {
   	  "ls" = "exa";
   	  "..." = "cd ../..";
