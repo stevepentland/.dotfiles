@@ -45,8 +45,20 @@
   	interactiveShellInit = "set PATH $PATH $HOME/bin";
   	shellAliases = {
   	  "ls" = "exa";
-  	  "..." = "cd ../..";	
+  	  "..." = "cd ../..";
+  	  "gst" = "git status";	
   	};
+  	plugins = [
+  		{
+  			name = "bobthefish";
+  			src = pkgs.fetchFromGitHub {
+  				owner = "oh-my-fish";
+  				repo = "theme-bobthefish";
+  				rev = "332f23abd7a095d5b2c024a061af7b890a4f0c20";
+  				sha256 = "0nhhc0d5z9k0srpalg7dv6zrls0qsw29bqp9vaajipcz53j7x6lf";
+  			};
+  		}
+  	];
   };
 
   programs.htop.enable = true;

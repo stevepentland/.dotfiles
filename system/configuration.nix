@@ -10,8 +10,6 @@
       ./hardware-configuration.nix
     ];
 
-  # boot.kernelPackages = pkgs.linuxPackages_5_15;
-
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -89,7 +87,6 @@
     
     # Virtualbox Stuff
     linuxKernel.packages.linux_5_10.virtualboxGuestAdditions
-    # linuxKernel.packages.linux_5_15.virtualboxGuestAdditions
 
     # Other Dev Tools
     vscode
@@ -105,7 +102,7 @@
     nerdfonts
     gnupg
     pinentry-qt
-    # partition-manager
+	unzip
   ];
  
   # Some programs need SUID wrappers, can be configured further or are
