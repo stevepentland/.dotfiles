@@ -24,22 +24,11 @@
   	./packages
   ];
 
-  programs.htop.enable = true;
-  
   home.file.scripts = {  	
   	executable = true;
   	recursive = true;
   	source = ../../scripts;
   	target = "bin/";
   };
-  
-  home.sessionPath = [
-  	"$HOME/bin"
-  ];
-  
-  nixpkgs.config.allowUnfree = true;
 
-  home.packages = with pkgs; [
-  	exa
-  ];
 }

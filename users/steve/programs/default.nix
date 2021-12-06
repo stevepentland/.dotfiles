@@ -5,4 +5,6 @@
 		./git.nix
 		./fish.nix
 	];
+
+	programs.htop.enable = true;
 }
