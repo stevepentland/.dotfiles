@@ -2,6 +2,7 @@
 /* Pywal Chroma Edge */
 
 @import '../../.cache/wal/colors-waybar.css';
+@import "custom/style.css";
 
 * {
 font-family: "JetBrainsMono Nerd Font";
@@ -374,3 +375,4 @@ label:focus {
 	min-width: 10px;
 	border-radius: 5px;
 }
+

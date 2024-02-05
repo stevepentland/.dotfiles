@@ -1,6 +1,8 @@
 /* ---- 💫 https://github.com/JaKooLit 💫 ---- */
 /* Catppuccin Latte */
 
+@import "custom/style.css";
+
 * {
 font-family: "JetBrainsMono Nerd Font";
 font-weight: bold;

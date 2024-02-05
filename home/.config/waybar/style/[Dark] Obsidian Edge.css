@@ -2,6 +2,7 @@
 /* Dark - Obsidian Edge */
 
 @import '../../.cache/wal/colors-waybar.css';
+@import "custom/style.css";
 
 * {
 font-family: "JetBrainsMono Nerd Font";

@@ -2,6 +2,7 @@
 /* Pywal - Chroma Tally */
 
 @import '../../.cache/wal/colors-waybar.css';
+@import "custom/style.css";
 
 * {
 font-family: "JetBrainsMono Nerd Font";
@@ -266,5 +267,3 @@ window#waybar {
 	min-width: 10px;
 	border-radius: 5px;
 }
-
-

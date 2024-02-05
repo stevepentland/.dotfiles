@@ -1,3 +1,5 @@
+@import "custom/style.css";
+
 @define-color critical #ff0000; /* critical color */
 @define-color warning #f3f809;  /* warning color */
 @define-color fgcolor #ffffff;  /* foreground color */

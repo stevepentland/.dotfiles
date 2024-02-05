@@ -4,6 +4,8 @@
 /* ......................................... */
 /* --- 👍 designed by https://github.com/Krautt  👍 --- */
 
+@import "custom/style.css";
+
 *{
 	font-family: "JetBrains Mono Nerd Font";
 	font-weight: bold;
@@ -217,5 +219,4 @@ tooltip {
 	border-radius: 5px;
 	background-color: wheat;
 }
-	
-	
+
