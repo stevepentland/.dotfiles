@@ -1,0 +1,19 @@
+[user]
+	name = Steve Pentland
+	email = stevepentland@gmail.com
+	signingkey = 3742FA71B60E518C
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[core]
+ 	excludesfile = /home/steve/.gitignore
+	autocrlf = input
+	compression = 0
+	editor = /usr/bin/micro
+[init]
+	defaultBranch = main
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[http]
+	postBuffer = 524288000

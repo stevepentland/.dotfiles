@@ -1,0 +1,26 @@
+# Place this file in ~/.config/systemd/user/ssh-auth-sock.service
+# $ systemctl --user daemon-reload
+# $ systemctl --user enable --now ssh-auth-sock.service
+# Add 'echo UPDATESTARTUPTTY | gpg-connect-agent >/dev/null' in your ~/.bashrc.
+# Logout or reboot.
+
+[Unit]
+Description=Set SSH_AUTH_SOCK to GnuPG agent
+
+[Service]
+Type=oneshot
+
+# disable gnome-keyring-ssh
+#ExecStartPre=/bin/bash -c 'cat /etc/xdg/autostart/gnome-keyring-ssh.desktop \
+#  <(echo "Hidden=true") > %h/.config/autostart/gnome-keyring-ssh.desktop'
+
+# set environment
+ExecStart=/usr/bin/bash -c 'systemctl --user set-environment \
+  SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket) \
+  GSM_SKIP_SSH_AGENT_WORKAROUND="true"'
+
+# See the below link for why we need GSM_SKIP_SSH_AGENT_WORKAROUND:
+# https://git.gnome.org/browse/gnome-session/tree/gnome-session/main.c?h=3.24.0#n419
+
+[Install]
+WantedBy=default.target

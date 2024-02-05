@@ -1,0 +1,34 @@
+import = [
+    "~/.config/alacritty/themes/themes/catppuccin_macchiato.toml"
+]
+
+[bell]
+animation = "EaseOutExpo"
+color = "#ffffff"
+duration = 0
+
+[cursor.style]
+blinking = "On"
+shape = "Beam"
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "Inconsolata Nerd Font"
+style = "Bold"
+
+[font.normal]
+family = "Inconsolata Nerd Font"
+style = "Regular"
+
+[shell]
+args = ["-l", "-c", "tmux attach || tmux"]
+program = "/bin/fish"
+
+[window]
+decorations = "full"
+dynamic_padding = true
+dynamic_title = true
+opacity = 0.90
+title = "Alacritty"
