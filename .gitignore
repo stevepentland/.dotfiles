@@ -1,1 +1,3 @@
 home/.config/fish/fish_variables
+home/.config/autostart
+!home/.config/autostart/gnome-keyring-ssh.desktop
