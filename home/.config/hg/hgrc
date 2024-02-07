@@ -1,2 +1,8 @@
+[extensions]
+hgext.gpg=
+
 [ui]
 username = Steve Pentland <stevepentland@gmail.com>
+
+[gpg]
+key=3742FA71B60E518C
