@@ -17,8 +17,8 @@
 	insteadOf = https://github.com/
 [sendemail]
 	smtpServer = smtp.gmail.com
-	smtpServerPort = 587
-	smtpEncryption = tls
+	smtpServerPort = 465
+	smtpEncryption = ssl
 	smtpUser = stevepentland@gmail.com
 [credential]
 	helper = store
