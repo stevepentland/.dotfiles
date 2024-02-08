@@ -13,7 +13,14 @@
 	editor = /usr/bin/micro
 [init]
 	defaultBranch = main
-#[url "ssh://git@github.com/"]
-#	insteadOf = https://github.com/
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[sendemail]
+	smtpServer = smtp.gmail.com
+	smtpServerPort = 587
+	smtpEncryption = tls
+	smtpUser = stevepentland@gmail.com
+[credential]
+	helper = store
 [http]
 	postBuffer = 524288000
