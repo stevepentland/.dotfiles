@@ -1,6 +1,6 @@
+[submodule "home/.config/kitty/kitty-themes"]
+	path = home/.config/kitty/kitty-themes
+	url = ssh://git@github.com/dexpota/kitty-themes
 [submodule "home/.config/alacritty/themes"]
 	path = home/.config/alacritty/themes
 	url = ssh://git@github.com/alacritty/alacritty-theme
-[submodule "/home/steve/.dotfiles/home/.config/kitty/kitty-themes"]
-	path = home/.config/kitty/kitty-themes
-	url = ssh://git@github.com/dexpota/kitty-themes.git

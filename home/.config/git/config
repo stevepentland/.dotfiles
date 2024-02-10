@@ -13,8 +13,10 @@
 	editor = /usr/bin/micro
 [init]
 	defaultBranch = main
-[url "ssh://git@github.com/"]
-	insteadOf = https://github.com/
+[url "ssh://git@github.com/stevepentland"]
+	insteadOf = https://github.com/stevepentland
+[url "ssh://git@github.com/nrwl"]
+	insteadOf = https://github.com/nrwl
 [sendemail]
 	smtpServer = smtp.gmail.com
 	smtpServerPort = 465
