@@ -4,3 +4,6 @@
 [submodule "/home/steve/.dotfiles/home/.config/kitty/kitty-themes"]
 	path = home/.config/kitty/kitty-themes
 	url = ssh://git@github.com/dexpota/kitty-themes.git
+[submodule "home/.config/nvim"]
+	path = home/.config/nvim
+	url = ssh://git@github.com/NvChad/NvChad
