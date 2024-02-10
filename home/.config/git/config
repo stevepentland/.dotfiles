@@ -20,6 +20,7 @@
 	smtpServerPort = 465
 	smtpEncryption = ssl
 	smtpUser = stevepentland@gmail.com
+	annotate = yes
 [credential]
 	helper = store
 [http]

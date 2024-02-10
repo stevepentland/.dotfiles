@@ -14,15 +14,7 @@ if status is-interactive
     set -x PATH $PATH $HOME/.google-cloud-sdk
     set -x PATH $PATH $HOME/.dotnet/tools
     set -x FLUTTER_GIT_URL "ssh://git@github.com/flutter/flutter.git"
-    set -x CHROME_EXECUTABLE /usr/bin/google-chrome-stable
-
-    # GPG/SSH config
-    # set -x SSH_AUTH_SOCK $(gpgconf --list-dirs agent-ssh-socket)
-
-    # NIM
-    # set -ga fish_user_paths /home/steve/.nimble/bin
-    
-    # gpgconf --launch gpg-agent
+    set -x CHROME_EXECUTABLE /usr/bin/google-chrome-stable    
 
     # Aliases
     alias copy="xclip -selection clipboard"
