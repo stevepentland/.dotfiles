@@ -21,7 +21,7 @@ if status is-interactive
     alias paste="xclip -selection clipboard -o"
     alias hx="helix"
     alias k9c="kubectx && k9s"
-    #alias vim="nvim"
+    alias vim="nvim"
 
     # pyenv init - | source
     kubectl completion fish | source
