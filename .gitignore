@@ -1,3 +1,15 @@
 home/.config/fish/fish_variables
 home/.config/autostart
 !home/.config/autostart/gnome-keyring-ssh.desktop
+home/.config/fish/functions/
+home/.config/fish/completions/
+!home.config/fish/completions/gcloud.fish
+!home.config/fish/completions/incus.fish
+!home.config/fish/completions/kubebuilder.fish
+!home.config/fish/completions/kustomize.fish
+!home.config/fish/completions/minikube.fish
+!home.config/fish/completions/operator-sdk.fish
+!home.config/fish/completions/kind.fish
+!home.config/fish/completions/gsutil.fish
+!home.config/fish/completions/gh.fish
+!home.config/fish/completions/gcloud.fish
