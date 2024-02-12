@@ -27,3 +27,5 @@
 	helper = store
 [http]
 	postBuffer = 524288000
+[log]
+	showSignature = true
