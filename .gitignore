@@ -15,3 +15,4 @@ home/.config/fish/conf.d/
 !home.config/fish/completions/gh.fish
 !home.config/fish/completions/gcloud.fish
 home/.config/nvim/lazy-lock.json
+home/.config/fish/conf.d/_tide_init.fish
