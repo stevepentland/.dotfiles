@@ -28,8 +28,6 @@
 	"custom/separator#dot-line", 
 	"memory",
 	"custom/separator#dot-line",
-	"custom/separator#blank_3",
-	"wlr/taskbar",
 	],
 
 "modules-center": [
@@ -54,6 +52,7 @@
 	"custom/swaync",
 	"custom/separator#dot-line",
 	"bluetooth",
+  "group/laptop",
 	"custom/separator#dot-line", 
 	"pulseaudio",
 	"custom/separator#dot-line",

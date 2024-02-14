@@ -578,6 +578,7 @@
     "on-click-right": "~/.config/hypr/scripts/WaybarLayout.sh",
 },
 
+
 // This is a custom cava visualizer
 "custom/cava_mviz": {
     "exec": "~/.config/hypr/scripts/WaybarCava.sh",
